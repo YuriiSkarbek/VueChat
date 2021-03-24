@@ -21,10 +21,6 @@ export default {
     components: {
         User
     },
-    props: {},
-    data() {
-        return {}
-    },
     methods: {
         ...mapActions([
             'FETCH_CHATS',
@@ -42,7 +38,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-
-</style>

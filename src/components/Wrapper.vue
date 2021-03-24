@@ -22,12 +22,7 @@ export default {
     components: {
         Header,
         Nav
-    },
-    props: {},
-    data() {
-        return {}
-    },
-    computed: {}
+    }
 }
 </script>
 

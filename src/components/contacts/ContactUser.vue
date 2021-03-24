@@ -16,15 +16,10 @@
 
 export default {
     name: "ContactUser",
-    components: {},
     props: {
         contact_data: Object,
         default: {}
     },
-    data() {
-        return {}
-    },
-    computed: {},
     methods: {
         toContactInfo() {
             this.$emit('to-contact-info')

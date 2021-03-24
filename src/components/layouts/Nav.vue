@@ -28,11 +28,6 @@ export default {
     components: {
         customIcon
     },
-    props: {},
-    data() {
-        return {}
-    },
-    computed: {},
     methods: {
         ...mapActions([
             'USER_TO_HEADER',
@@ -82,5 +77,4 @@ export default {
         font-size: 12px;
         text-decoration: none;
     }
-
 </style>

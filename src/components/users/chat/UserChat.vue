@@ -13,7 +13,6 @@
                 @keypress.enter="sendMsg"
                 @keyup="charLimit"
             >
-            
             <div 
                 class="send"
                 @click="sendMsg"
@@ -22,7 +21,6 @@
             </div>
         </div>
     </div>
-    
 </template>
 
 <script>
@@ -84,10 +82,6 @@ export default {
                 this.msgValue = slicedMsgText;
             }
         }
-    },
-    mounted() {
-    },
-    computed: {
     }
 }
 </script>

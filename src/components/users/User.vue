@@ -30,9 +30,6 @@ export default {
             default: () => {}
         }
     },
-    data() {
-        return {}
-    },
     methods: {
         ...mapActions([
             'USER_TO_HEADER'
@@ -44,10 +41,6 @@ export default {
                 params: {'messeges': this.user_data.chat, 'user': this.user_data}
             })
         }
-    },
-    mounted() {
-    },
-    computed: {
     }
 }
 </script>

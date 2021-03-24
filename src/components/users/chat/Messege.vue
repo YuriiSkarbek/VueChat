@@ -11,25 +11,13 @@
 </template>
 
 <script>
-
 export default {
     name: "Messege",
-    components: {
-    },
     props: {
         messege: {
             type: Object,
             default: () => {}
         }
-    },
-    data() {
-        return {}
-    },
-    methods: {
-    },
-    mounted() {
-    },
-    computed: {
     }
 }
 </script>
